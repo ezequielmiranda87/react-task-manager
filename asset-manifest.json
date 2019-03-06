@@ -1,14 +1,14 @@
 {
-  "main.css": "/react-post-board/static/css/main.933c9e0e.chunk.css",
-  "main.js": "/react-post-board/static/js/main.f81ead97.chunk.js",
-  "main.js.map": "/react-post-board/static/js/main.f81ead97.chunk.js.map",
-  "runtime~main.js": "/react-post-board/static/js/runtime~main.becc3f8f.js",
-  "runtime~main.js.map": "/react-post-board/static/js/runtime~main.becc3f8f.js.map",
-  "static/js/2.a539ea9d.chunk.js": "/react-post-board/static/js/2.a539ea9d.chunk.js",
-  "static/js/2.a539ea9d.chunk.js.map": "/react-post-board/static/js/2.a539ea9d.chunk.js.map",
-  "index.html": "/react-post-board/index.html",
-  "precache-manifest.2b4ad16cea4aa3ccb39c349de5ba09aa.js": "/react-post-board/precache-manifest.2b4ad16cea4aa3ccb39c349de5ba09aa.js",
-  "service-worker.js": "/react-post-board/service-worker.js",
-  "static/css/main.933c9e0e.chunk.css.map": "/react-post-board/static/css/main.933c9e0e.chunk.css.map",
-  "static/media/logo.svg": "/react-post-board/static/media/logo.5d5d9eef.svg"
+  "main.css": "/react-task-manager/static/css/main.933c9e0e.chunk.css",
+  "main.js": "/react-task-manager/static/js/main.990a400b.chunk.js",
+  "main.js.map": "/react-task-manager/static/js/main.990a400b.chunk.js.map",
+  "runtime~main.js": "/react-task-manager/static/js/runtime~main.ffcbe442.js",
+  "runtime~main.js.map": "/react-task-manager/static/js/runtime~main.ffcbe442.js.map",
+  "static/js/2.a539ea9d.chunk.js": "/react-task-manager/static/js/2.a539ea9d.chunk.js",
+  "static/js/2.a539ea9d.chunk.js.map": "/react-task-manager/static/js/2.a539ea9d.chunk.js.map",
+  "index.html": "/react-task-manager/index.html",
+  "precache-manifest.a05a25f811ee55cfbecd0f74c48c6539.js": "/react-task-manager/precache-manifest.a05a25f811ee55cfbecd0f74c48c6539.js",
+  "service-worker.js": "/react-task-manager/service-worker.js",
+  "static/css/main.933c9e0e.chunk.css.map": "/react-task-manager/static/css/main.933c9e0e.chunk.css.map",
+  "static/media/logo.svg": "/react-task-manager/static/media/logo.5d5d9eef.svg"
 }
