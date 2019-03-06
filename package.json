@@ -2,7 +2,7 @@
   "name": "react-task-manager",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ezequielmiranda87.github.io/react-post-board",
+  "homepage": "https://ezequielmiranda87.github.io/react-task-manager",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
