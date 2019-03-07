@@ -16,9 +16,9 @@ A Post Board  App made with react and redux. Check the app live [here](https://e
 - Axios
 - Materializecss
 
-## Front end application
+## Front-end application
 
-## Routes
+### Routes
 
 | Endpoint       | Description                  |
 |----------------|:----------------------------:|
@@ -30,7 +30,7 @@ A Post Board  App made with react and redux. Check the app live [here](https://e
 | /singout       | Signout method               |
 
 
-## Component Tree
+### Component Tree
 
 ```bash
 
@@ -49,3 +49,4 @@ A Post Board  App made with react and redux. Check the app live [here](https://e
         ├── Sign-in
         ├── Sign-up
 ```
+## Back-end application
