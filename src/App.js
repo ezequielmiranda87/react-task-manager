@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import {BrowserRouter,Router} from 'react-router-dom';
+import {BrowserRouter, Switch, Route} from 'react-router-dom'; 
+// Switch Make sure  that only one route is loaded up at time
 import Nav from './components/layout/Navbar';
+import Dashboard from './components/dashboard/Dashboard';
 
 class App extends Component {
   render() {
@@ -8,7 +10,11 @@ class App extends Component {
       <BrowserRouter>
       <div className="App">
         <Nav/>
-        <h1>React Task manager</h1>
+
+        <Switch>
+          <Route path="/" component= {Dashboard}/>
+        </Switch>
+
       </div>
     </BrowserRouter>
     );
