@@ -18,7 +18,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component= {Dashboard}/>
           <Route path = "/project/:id" component = {ProjectDetail}/>
-          <Route path = "/sigin/" component = {SignIn}/>
+          <Route path = "/signin/" component = {SignIn}/>
           <Route path = "/signup/" component = {SignUp}/>
           <Route path = "/create/" component = {CreateProject}/>
         </Switch>
