@@ -8,13 +8,18 @@ A Post Board  App made with react and redux. Check the app live [here](https://e
 - Redux
 - Thunk
 - Firebase 
-    - Firestone - Data store
-    - Authentication
-    - Cloud functions
-    - Hosting
+    react-redux-firebase
+    redux-firestore
 - React-router
 - Axios
 - Materializecss
+
+## Database
+    - Firestone - Data store
+## Auhentication
+    -Firebase Authentication
+## Server logic
+    - Cloud functions
 
 ## Front-end application
 

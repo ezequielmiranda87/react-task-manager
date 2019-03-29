@@ -3,15 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {createStore, applyMiddleware} from 'redux';
+import {createStore, applyMiddleware, compose} from 'redux';
 import {Provider} from 'react-redux'
-import thunk from 'redux-thunk';
 import rootReducer from './store/reducers/rootReducer';
+import thunk from 'redux-thunk';
+import {reduxFirestore, geFirestore} from 'redux-firestore';
+import {reactReduxFirebase, getFirebase} from 'react-redux-firebase';
+import firabaseConfig from './config/firebaseConfig';
 
 // Here, we create the store and apply "Thunk" Middleware. 
 // Thunk help us to perform async operation over redux store.
-
-const store = createStore(rootReducer, applyMiddleware(thunk))
+const store = createStore(rootReducer,
+    compose(
+        applyMiddleware(thunk.withExtraArgument({getFirebase,geFirestore})),
+        reduxFirestore(firabaseConfig),
+        reactReduxFirebase(firabaseConfig),
+    )
+);
 
 ReactDOM.render(
     <Provider store = {store}>
