@@ -12,8 +12,6 @@ const projectReducer = (state = initialState, action) => {
             console.log('created project', action.project)
     }
 
-
-
     return state;
 }
 

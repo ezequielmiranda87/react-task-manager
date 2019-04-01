@@ -7,7 +7,7 @@ import {createStore, applyMiddleware, compose} from 'redux';
 import {Provider} from 'react-redux'
 import rootReducer from './store/reducers/rootReducer';
 import thunk from 'redux-thunk';
-import {reduxFirestore, geFirestore} from 'redux-firestore';
+import {reduxFirestore, getFirestore} from 'redux-firestore';
 import {reactReduxFirebase, getFirebase} from 'react-redux-firebase';
 import firabaseConfig from './config/firebaseConfig';
 
@@ -15,7 +15,7 @@ import firabaseConfig from './config/firebaseConfig';
 // Thunk help us to perform async operation over redux store.
 const store = createStore(rootReducer,
     compose(
-        applyMiddleware(thunk.withExtraArgument({getFirebase,geFirestore})),
+        applyMiddleware(thunk.withExtraArgument({getFirebase,getFirestore})),
         reduxFirestore(firabaseConfig),
         reactReduxFirebase(firabaseConfig),
     )

@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function ProjectDetails(props) {
-  console.log(props)
   return (
     <div className="container section project-detail">
         <div className="card">

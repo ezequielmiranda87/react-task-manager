@@ -2,6 +2,15 @@ import React, { Component } from 'react'
 import {createProject} from '../../store/actions/projectActions';
 import {connect} from 'react-redux';
 
+
+
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    createProject : (project) => dispatch(createProject(project))
+  }
+}
+
 class CreateProject extends Component {
   state = {
     title: '',
@@ -18,7 +27,6 @@ class CreateProject extends Component {
       [e.target.id]: e.target.value
     })
   }
-
 
   render() {
     return (
@@ -43,12 +51,6 @@ class CreateProject extends Component {
         </div>
       </div>
     )
-  }
-}
-
-const mapDispatchToProps = (dispatch) => {
-  return {
-    createProject : (project) => dispatch(createProject(project))
   }
 }
 
