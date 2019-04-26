@@ -14,3 +14,4 @@ import 'firebase/auth';
   firebase.initializeApp(config);
   
   export default firebase;
+

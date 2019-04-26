@@ -10,13 +10,14 @@ export const createProject = (project) => {
             authorFirstName: 'Ezex',
             authorLastName: 'Miranda',
             authorId: 12345,
-            createdAd: new Date()
+            createdAt: new Date()
         })
         .then((response)=>{
             console.log("RESPONSE ADD PROJECT", response);
             dispatch({type: "CREATE_PROJECT", project});
         }) 
         .catch((err)=>{
+            console.log(`*****Error: ${err}`);
             dispatch({type: "CREATE_PROJECT_ERROR", err});
         })
     }
