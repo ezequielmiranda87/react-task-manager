@@ -13,8 +13,10 @@ import firabaseConfig from './config/firebaseConfig';
 
 // Here, we create the store and apply "Thunk" Middleware. 
 // Thunk help us to perform async operation over redux store.
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
 const store = createStore(rootReducer,
-    compose(
+    composeEnhancers(
         applyMiddleware(thunk.withExtraArgument({getFirebase,getFirestore})),
         reduxFirestore(firabaseConfig),
         reactReduxFirebase(firabaseConfig),
